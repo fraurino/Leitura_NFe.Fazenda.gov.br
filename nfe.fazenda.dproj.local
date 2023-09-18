@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/11/22 22:30:14.000.603,=C:\Users\Rafaele\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2017/12/02 12:35:31.000.078,=C:\Users\Rafaele\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2017/12/09 13:56:49.000.479,=C:\Users\Rafaele\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2017/12/09 13:57:01.000.448,=C:\Users\Rafaele\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2018/03/31 21:07:11.000.447,=C:\Users\Rafaele\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2018/04/26 11:37:34.000.887,=C:\Users\Rafaele\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2018/07/03 11:09:20.000.478,=C:\Users\Rafaele\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2018/10/12 15:47:33.000.183,=C:\Users\Rafaele\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2018/10/12 15:59:18.000.175,C:\Users\Rafaele\Documents\Embarcadero\Studio\Projects\Unit2.dfm=C:\Projetos\Navegador VIVO\uNavegadorTesste.dfm</Transaction>
+    <Transaction>2018/10/12 15:59:18.000.175,C:\Users\Rafaele\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Projetos\Navegador VIVO\uNavegadorTesste.pas</Transaction>
+    <Transaction>2018/10/12 15:59:25.000.944,C:\Users\Rafaele\Documents\Embarcadero\Studio\Projects\Project2.dproj=C:\Projetos\Navegador VIVO\NavegadorVivo.dproj</Transaction>
+    <Transaction>2023/09/18 14:58:23.000.552,C:\Users\Franc\OneDrive\Área de Trabalho\Navegador VIVO\nfe.fazenda.dproj=C:\Users\Franc\OneDrive\Área de Trabalho\Navegador VIVO\NavegadorVivo.dproj</Transaction>
+    <Transaction>2023/09/18 14:59:32.000.135,C:\Users\Franc\OneDrive\Área de Trabalho\Navegador VIVO\uNavegadorTesste.pas=C:\Users\Franc\OneDrive\Área de Trabalho\Navegador VIVO\uNFe.Fazenda.pas</Transaction>
+    <Transaction>2023/09/18 14:59:32.000.135,C:\Users\Franc\OneDrive\Área de Trabalho\Navegador VIVO\uNavegadorTesste.dfm=C:\Users\Franc\OneDrive\Área de Trabalho\Navegador VIVO\uNFe.Fazenda.dfm</Transaction>
+  </Transactions>
+</BorlandProject>
