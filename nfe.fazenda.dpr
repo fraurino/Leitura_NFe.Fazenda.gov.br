@@ -2,7 +2,9 @@ program nfe.fazenda;
 
 uses
   Vcl.Forms,
-  uNFe.Fazenda in 'uNFe.Fazenda.pas' {frmNfeFazenda};
+  uNFe.Fazenda in 'uNFe.Fazenda.pas' {frmNfeFazenda},
+  Vcl.Themes,
+  Vcl.Styles;
 
 {$R *.res}
 

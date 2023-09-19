@@ -21,6 +21,28 @@ object frmNfeFazenda: TfrmNfeFazenda
     Align = alTop
     TabOrder = 0
     ExplicitWidth = 881
+    object Label1: TLabel
+      AlignWithMargins = True
+      Left = 686
+      Top = 4
+      Width = 195
+      Height = 17
+      Cursor = crHandPoint
+      Align = alRight
+      Caption = 'Feito por Aurino 98 9 8892-3379'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clNavy
+      Font.Height = -11
+      Font.Name = 'Century'
+      Font.Style = [fsBold]
+      ParentFont = False
+      Layout = tlCenter
+      StyleElements = [seClient]
+      OnClick = Label1Click
+      ExplicitLeft = 689
+      ExplicitTop = 1
+      ExplicitHeight = 15
+    end
     object btnInformes: TButton
       Left = 1
       Top = 1
@@ -43,6 +65,19 @@ object frmNfeFazenda: TfrmNfeFazenda
       TabOrder = 1
       OnClick = btnAvisosClick
     end
+    object btnIBPTinforma: TButton
+      Left = 201
+      Top = 1
+      Width = 75
+      Height = 23
+      Cursor = crHandPoint
+      Align = alLeft
+      Caption = 'IBPT Informa'
+      TabOrder = 2
+      OnClick = btnIBPTinformaClick
+      ExplicitLeft = 464
+      ExplicitHeight = 48
+    end
   end
   object StatusBar1: TStatusBar
     Left = 0
@@ -56,56 +91,65 @@ object frmNfeFazenda: TfrmNfeFazenda
       end
       item
         Text = 'Mensagem'
-        Width = 650
-      end
-      item
-        Text = 'Feito por:'
-        Width = 60
-      end
-      item
-        Text = 'Aurino | 98 988923379'
-        Width = 50
+        Width = 1024
       end>
-    OnClick = StatusBar1Click
     ExplicitTop = 556
     ExplicitWidth = 881
   end
-  object PageControl1: TPageControl
+  object pgServicos: TPageControl
     Left = 0
     Top = 25
     Width = 885
-    Height = 532
+    Height = 56
     Cursor = crHandPoint
-    ActivePage = TabSheet2
-    Align = alClient
+    ActivePage = tsNFe
+    Align = alTop
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    HotTrack = True
+    MultiLine = True
+    ParentFont = False
+    Style = tsButtons
     TabOrder = 2
-    object TabSheet2: TTabSheet
+    OnChange = pgServicosChange
+    OnChanging = pgServicosChanging
+    object tsNFe: TTabSheet
       Caption = 'nfe.fazenda.gov.br'
       ImageIndex = 1
-      object resultado: TMemo
-        Left = 0
-        Top = 0
-        Width = 877
-        Height = 152
-        Align = alTop
-        Color = clInfoBk
-        TabOrder = 0
-        ExplicitWidth = 873
-      end
-      object StringGrid1: TStringGrid
-        Left = 0
-        Top = 152
-        Width = 877
-        Height = 352
-        Hint = 'Duplo clique para abrir o link da mensagem'
-        Align = alClient
-        ParentShowHint = False
-        ShowHint = True
-        TabOrder = 1
-        OnDblClick = StringGrid1DblClick
-        ExplicitWidth = 873
-        ExplicitHeight = 351
-      end
     end
+    object tsCTe: TTabSheet
+      Caption = 'cte.fazenda.gov.br'
+      ImageIndex = 1
+    end
+  end
+  object resultado: TMemo
+    Left = 0
+    Top = 81
+    Width = 885
+    Height = 152
+    Align = alTop
+    Color = clInfoBk
+    TabOrder = 3
+    ExplicitLeft = 8
+    ExplicitTop = 8
+    ExplicitWidth = 877
+  end
+  object StringGrid1: TStringGrid
+    Left = 0
+    Top = 233
+    Width = 885
+    Height = 324
+    Hint = 'Duplo clique para abrir o link da mensagem'
+    Align = alClient
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 4
+    OnDblClick = StringGrid1DblClick
+    ExplicitTop = 152
+    ExplicitWidth = 873
+    ExplicitHeight = 351
   end
 end
